@@ -1,0 +1,21 @@
+{
+    "name":"kleber-son/couser-composer",
+    "description":"Package teste",
+    "require":{
+        "php":">=5.4"
+    },
+    "type":"library",
+    "version": "1.0",
+    "license":"MIT",
+    "authors": [
+        {
+            "name":     "John Kleber",
+            "email":    "kleber3050@gmail.com"
+        }
+    ],
+    "minimum-stability":"dev",
+    "autoload": {
+        "psr-4": {"john\\SON\\":"src/john/SON"}
+    }
+
+}
